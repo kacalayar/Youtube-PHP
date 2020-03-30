@@ -5,4 +5,7 @@ Installation <br>
 [-] chmod +x yt.sh<br>
 [-] ./yt.sh<br>
 
-Or you can upload to your server directory manually
+Or you can upload to your server directory manually<br>
+
+Installation script by Firez <br>
+Just save to my git
