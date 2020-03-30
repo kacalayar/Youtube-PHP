@@ -13,7 +13,7 @@ case "$response" in
         sudo wget "https://yt-dl.org/downloads/latest/youtube-dl" -O "/usr/local/bin/youtube-dl"
         sudo chmod a+rx "/usr/local/bin/youtube-dl"
         sudo apt-get install apache2 -y
-        sudo wget "https://pastebin.com/raw/hc4RpEgH?yt.php" -O "/var/www/html/yt.php"
+        sudo wget "https://raw.githubusercontent.com/kacalayar/Youtube-PHP/master/yt.php" -O "/var/www/html/yt.php"
         echo "Successfully installed."
         echo "URL: http://$ip/yt.php?id=YOUTUBEID"
         ;;
